@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://news.uitm.edu.my/info", true);
+  xhttp.open("GET", "https://news.uitm.edu.my", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
